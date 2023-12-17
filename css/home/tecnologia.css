@@ -10,8 +10,8 @@
 }
 
 .tecnologia-imagem img {
-  height: 100%;
   width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: left;
 }
@@ -22,8 +22,8 @@
 }
 
 .tecnologia-conteudo > span {
-  margin-bottom: 20px;
   display: block;
+  margin-bottom: 20px;
 }
 
 .tecnologia-conteudo h2 {
@@ -31,8 +31,7 @@
 }
 
 .tecnologia-conteudo > p {
-  /*seleciona filho direto */
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .tecnologia a {
@@ -65,12 +64,10 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
-
-  .tecnologia-imagem img {
+  .tecnologia-imagem {
     display: none;
   }
-
-  .tecnologia-a {
+  .tecnologia a {
     margin-bottom: 60px;
   }
 }
